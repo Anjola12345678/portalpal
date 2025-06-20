@@ -123,12 +123,13 @@ const Terms = () => {
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-6 lg:gap-10 text-sm sm:text-base">
           <ul className="flex gap-6 lg:gap-8">
-            <Link to="/"><li className="hover:text-bluish text-lg cursor-pointer">Home</li></Link>
-            <li className="hover:text-bluish text-lg cursor-pointer">Services</li>
+            {/* <Link to="/"><li className="hover:text-bluish text-lg cursor-pointer">Home</li></Link> */}
+            {/* <li className="hover:text-bluish text-lg cursor-pointer">Services</li>
             <li className="hover:text-bluish text-lg cursor-pointer">Blog</li>
-            <li className="hover:text-bluish text-lg cursor-pointer">Resources</li>
+            <li className="hover:text-bluish text-lg cursor-pointer">Resources</li> */}
           </ul>
           <div className="flex gap-4">
+             <Link to="/" className="hover:text-bluish text-lg cursor-pointer">Home</Link>
             <Link to="/login" className="hover:text-bluish text-lg">Login</Link>
             <Link to="/signup" className="bg-bluish hover:bg-reds text-white px-4 py-1 rounded-md text-lg">Sign-Up</Link>
           </div>
@@ -147,9 +148,9 @@ const Terms = () => {
         <div className="md:hidden bg-white mt-[70px] px-4 pb-4 shadow-md z-40 relative">
           <ul className="flex flex-col gap-3 mb-4">
             <li className="hover:text-bluish cursor-pointer">Home</li>
-            <li className="hover:text-bluish cursor-pointer">Services</li>
+            {/* <li className="hover:text-bluish cursor-pointer">Services</li>
             <li className="hover:text-bluish cursor-pointer">Blog</li>
-            <li className="hover:text-bluish cursor-pointer">Resources</li>
+            <li className="hover:text-bluish cursor-pointer">Resources</li> */}
           </ul>
           <div className="flex flex-col gap-3">
             <Link to="/login" className="hover:text-bluish text-lg">Login</Link>

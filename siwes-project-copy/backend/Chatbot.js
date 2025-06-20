@@ -17,3 +17,5 @@ export const getChatbotResponse = async (input) => {
   const response = await chain.invoke({ input });
   return response;
 };
+
+// "start": "react-scripts start"

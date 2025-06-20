@@ -50,15 +50,15 @@ const Home = () => {
           <div>
           <ul className="hidden lg:flex gap-6 text-sm sm:text-base font-medium ">
             {/* <Link to='/'><li className="hover:text-blue transition cursor-pointer">Home</li></Link> */}
-            <Link to='/terms'><li className="hover:text-blue transition cursor-pointer">Terms</li></Link>
-            <li className="hover:text-blue transition cursor-pointer">Enterprise</li>
-            <li className="hover:text-blue transition cursor-pointer">Pricing</li>
+            {/* <Link to='/terms'><li className="hover:text-blue transition cursor-pointer">Terms</li></Link> */}
+            {/* <li className="hover:text-blue transition cursor-pointer">Enterprise</li>
+            <li className="hover:text-blue transition cursor-pointer">Pricing</li> */}
           </ul>
           </div>
 
           <div>
           <ul className="hidden lg:flex gap-6 items-center text-sm sm:text-base font-medium">
-           
+           <Link to='/terms'><li className="hover:text-blue transition cursor-pointer">Terms</li></Link>
             <Link to="/login"><li className="hover:text-blue cursor-pointer">Login</li></Link>
             <li>
               <Link to='/signup'><button className="bg-darkBlue text-white hover:bg-reds px-4 py-2 rounded-lg transition">
